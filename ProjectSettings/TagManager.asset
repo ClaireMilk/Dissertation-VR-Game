@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - vrkb_image0
+  - vrkb_label0
+  - vrkb_mallet
+  - GameManager
   layers:
   - Default
   - TransparentFX
