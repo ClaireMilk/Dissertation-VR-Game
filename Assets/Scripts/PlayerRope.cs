@@ -12,6 +12,7 @@ public class PlayerRope : MonoBehaviour
             gameObject.transform.parent = other.transform;
             gameObject.transform.position = Vector3.zero;
             dog.start = true;
+            gameObject.GetComponent<PlayerRope>().enabled = false;
         }
     }
 }
