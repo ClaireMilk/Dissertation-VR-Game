@@ -10,6 +10,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        transform.position += speed * Time.deltaTime * new Vector3(input.axis.x, 0, input.axis.y);
+        transform.position += (transform.forward * input.axis.y + transform.right * input.axis.x) * speed * Time.deltaTime;
     }
 }
